@@ -10,8 +10,9 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("https://images.pexels.com/photos/568021/pexels-photo-568021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") top right no-repeat;
+  background: #040404 url("https://i.em.com.br/jb_B1cBbZrGZd2bHBSSh7OiQnms=/675x0/smart/imgsapp.em.com.br/app/noticia_127983242361/2021/03/15/1246701/20210315070249391845o.jpg") top center no-repeat;
   background-size: cover;
+  filter: brightness(53%);
   left: 0;
   right: 0;
   top: 0;
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 18px;
 }
 
 .nav-menu a {
