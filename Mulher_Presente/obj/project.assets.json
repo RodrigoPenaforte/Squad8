@@ -7206,12 +7206,30 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\Paulo Miguel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+=======
     "C:\\Users\\Iago\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> ed66d783a637ea274379f4d7ad5e4916e45c5ee3
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+      "projectName": "Mulher-Presente",
+      "projectPath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+      "packagesPath": "C:\\Users\\Paulo Miguel\\.nuget\\packages\\",
+      "outputPath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Paulo Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
       "projectUniqueName": "C:\\Users\\Iago\\Desktop\\Nova pasta (5)\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
       "projectName": "Mulher-Presente",
       "projectPath": "C:\\Users\\Iago\\Desktop\\Nova pasta (5)\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
@@ -7224,6 +7242,7 @@
       "configFilePaths": [
         "C:\\Users\\Iago\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> ed66d783a637ea274379f4d7ad5e4916e45c5ee3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

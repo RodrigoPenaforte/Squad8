@@ -8,61 +8,43 @@
 
 <html>
 <head>
+    <link href="~/css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <style>
+        .cor-fundo{
+             background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Seja nosso parceiro</h1>
-    <p class="text-white">
+    <h5 class="text-white">
         Através do seu cadastro você vai poder estar apoiando mulheres em todo o Brasil
-        que foram vítimas de algum tipo de violência
-    </p>
+        que foram vítimas de algum tipo de violência.
+    </h5>
 
 <p class="font-weight-bold">
-    <a asp-action="Create" class="badge badge-info m-1">Criar parceiro</a>
+    <a asp-action="Create" class="badge badge-info m-1"><h1>Seja nosso parceiro</h1></a>
 </p>
-<table class="table table-striped table-dark">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Especilidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Especilidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                <a class="text-info" asp-action="Edit" asp-route-id="@item.id_parceiro">Edite</a> |
-                <a class="text-info" asp-action="Details" asp-route-id="@item.id_parceiro">Detalhes</a> |
-                <a class="text-info" asp-action="Delete" asp-route-id="@item.id_parceiro">Delete</a>
-            </td>
-        </tr>
+
+<div class="d-flex flex-wrap">
+@foreach (var item in Model) {
+<div class="card m-3 cor-fundo  " style="width: 18rem;">
+  <div class="card-body text-white ">
+    <h5 class="text-white ">@Html.DisplayFor(modelItem => item.Especilidade)</h5>
+    <h6 class="card-subtitle mb-2 text-white"> @Html.DisplayFor(modelItem => item.Nome)</h6>
+    <p class=" text-white">📞 @Html.DisplayFor(modelItem => item.Telefone)</p>
+    <p class=" text-white">@Html.DisplayFor(modelItem => item.email)</p>
+        <a asp-action="Edit" asp-route-id="@item.id_parceiro">Edite</a> |
+        <a asp-action="Details" asp-route-id="@item.id_parceiro">Detalhes</a> |
+        <a asp-action="Delete" asp-route-id="@item.id_parceiro">Delete</a>
+  </div>
+</div>
 }
-    </tbody>
-</table>
+</div>
+
+
+
 </body>
 </html>

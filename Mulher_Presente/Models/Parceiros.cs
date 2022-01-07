@@ -10,6 +10,7 @@ namespace Mulher_Presente.Models
         public int id_parceiro {get; set;}
 
         [Required]
+        [DisplayName("Especialidade")]
         public string Especilidade {get;set;}
 
          [Required]
