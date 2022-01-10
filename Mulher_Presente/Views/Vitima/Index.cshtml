@@ -8,22 +8,27 @@
 
 <html>
 <head>
+    <link href="~/css/Sobre.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
 <body>
-    <h1>Registre sua denúncia</h1>
-    <p class="text-white">
-        Através do seu cadastro você vai poder sert amparada por um profissional
-        selecionado que vai entrar em contato para te dar o suprte necessário
+
+  <div class="text-center container">  
+    <p class="text-white h3 m-3">
+        Através do seu cadastro você será amparada por um profissional
+        selecionado, que irá entrar em contato para dar o suporte necessário.
     </p>
 
-<p class="font-weight-bold">
-    <h1>
-        <a asp-action="Create" class="badge badge-info">Criar chamada</a>
-    </h1>
-</p>
-<table class="table table-striped table-dark">
+
+    <a asp-action="Create" class="btn btn-outline-warning">Criar chamada</a>
+
+</div>
+
+<hr class="bg-white"/>
+
+<div class="text-center">
+<table class="table table-dark ">
     <thead>
         <tr>
             <th>
@@ -57,13 +62,14 @@
                 @Html.DisplayFor(modelItem => item.Parceiros.Especilidade)
             </td>
             <td>
-                <a class="text-info" asp-action="Edit" asp-route-id="@item.id_vitima">Edit</a> |
-                <a class="text-info" asp-action="Details" asp-route-id="@item.id_vitima">Details</a> |
-                <a class="text-info" asp-action="Delete" asp-route-id="@item.id_vitima">Delete</a>
+                <a class="text-info" asp-action="Edit" asp-route-id="@item.id_vitima"><img src="images/editar.png" width="25" alt="" srcset=""></a> |
+                <a class="text-info" asp-action="Details" asp-route-id="@item.id_vitima"><img src="images/lupa.png" width="25" alt="" srcset=""></a> |
+                <a class="text-info" asp-action="Delete" asp-route-id="@item.id_vitima"><img src="images/lixeira.png" width="25" alt="" srcset=""></a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
 </body>
 </html>

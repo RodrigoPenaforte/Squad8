@@ -1,7 +1,7 @@
 @model Mulher_Presente.Models.Vitima
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Detalhes da Solicitação";
 }
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
 <body>
 
 <div>
-    <h4>Vitima</h4>
+    <h4>Detalhes sobre esta Solicitação.</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -44,8 +44,9 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.id_vitima">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.id_vitima" class="h4">Editar</a> 
+    <br>
+    <a asp-action="Index" class="h3">&#8592;</a>
 </div>
 </body>
 </html>

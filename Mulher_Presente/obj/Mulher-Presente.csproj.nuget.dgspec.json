@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Driel\\OneDrive\\Documentos\\GitHub\\Recode\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj": {}
+    "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Driel\\OneDrive\\Documentos\\GitHub\\Recode\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj": {
+    "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Driel\\OneDrive\\Documentos\\GitHub\\Recode\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+        "projectUniqueName": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
         "projectName": "Mulher-Presente",
-        "projectPath": "C:\\Users\\Driel\\OneDrive\\Documentos\\GitHub\\Recode\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
-        "packagesPath": "C:\\Users\\Driel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Driel\\OneDrive\\Documentos\\GitHub\\Recode\\Squad8\\Mulher_Presente\\obj\\",
+        "projectPath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+        "packagesPath": "C:\\Users\\Paulo Miguel\\.nuget\\packages\\",
+        "outputPath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Driel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Paulo Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

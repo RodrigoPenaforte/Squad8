@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("https://i.em.com.br/jb_B1cBbZrGZd2bHBSSh7OiQnms=/675x0/smart/imgsapp.em.com.br/app/noticia_127983242361/2021/03/15/1246701/20210315070249391845o.jpg") top center no-repeat;
+  background: #040404 url("/images/Fundo.jpeg") top center no-repeat;
   background-size: cover;
   filter: brightness(53%);
   left: 0;
@@ -135,8 +135,13 @@ h1, h2, h3, h4, h5, h6 {
 # Menu de Navegação
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
+.nav-link:hover{
+  border-bottom: 3px solid #948803;
+  transition: 0.5s;
+}
+
 .nav-menu {
- 
   margin: 25px;
  
 }
@@ -525,5 +530,7 @@ section .container {
   }
 }
  
-
+.menu3{
+  color: #948803;
+}
 

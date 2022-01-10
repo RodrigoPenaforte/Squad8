@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Mulher_Presente</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link href="~/css/style.css" rel="stylesheet">
@@ -16,15 +16,33 @@
 <body>
     <header>
        
-         <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class=""><a  asp-area="" asp-controller="Home" asp-action="Index" >Home</a></li>
-          <li><a  asp-area="" asp-controller="Home" asp-action="TiposViolencia" >Agressões</a></li>
-          <li><a  asp-area="" asp-controller="Home" asp-action="Servicos">Serviços</a></li>
-          <li><a  asp-area="" asp-controller="Vitima" asp-action="Index" >Mulher</a></li>
-          <li><a  asp-area="" asp-controller="Parceiros" asp-action="Index">Parceria</a></li>
-          <li><a  asp-area="" asp-controller="Home" asp-action="Contato">Contato</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light   box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand text-white nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="TiposViolencia">Tipos de Violências</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Home" asp-action="Servicos">Serviços</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Vitima" asp-action="Index">Área da mulher</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Parceiros" asp-action="Index">Seja um Parceiro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Home" asp-action="Contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
       
 
@@ -41,7 +59,7 @@
     
 
     <footer class="">
-        <div class="container text-white">
+        <div class="container ">
             &copy; 2022 - Mulher Presente 
         </div>
     </footer>
@@ -51,6 +69,48 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <div id="lastDiv"></div>
+    <script>
+
+        $(document).ready(function () {
+
+            $("#lastDiv").nextAll("center").remove();
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 100);
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 200);
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 300);
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 400);
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 500);
+
+        });
+
+    </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
