@@ -1,7 +1,7 @@
 @model IEnumerable<Mulher_Presente.Models.Parceiros>
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Parceria";
 }
 
 <!DOCTYPE html>
@@ -19,14 +19,16 @@
 </head>
 
 <body>
-    <h5 class="text-white">
-        Através do seu cadastro você vai poder estar apoiando mulheres em todo o Brasil
-        que foram vítimas de algum tipo de violência.
-    </h5>
+    <div class="text-center">
+        <h5 class="text-white h3">
+            Através do seu cadastro você vai poder estar apoiando mulheres em todo o Brasil
+            que foram vítimas de algum tipo de violência.
+        </h5>
 
-<p class="font-weight-bold">
-    <a asp-action="Create" class="badge badge-info m-1"><h1>Seja nosso parceiro</h1></a>
-</p>
+
+        <p class=" btn-link "><a asp-action="Create" class="h3">Seja nosso parceiro</a></p>
+    </div>
+    <hr class="bg-white"/>
 
 <div class="d-flex flex-wrap">
 @foreach (var item in Model) {
@@ -36,9 +38,9 @@
     <h6 class="card-subtitle mb-2 text-white"> @Html.DisplayFor(modelItem => item.Nome)</h6>
     <p class=" text-white">📞 @Html.DisplayFor(modelItem => item.Telefone)</p>
     <p class=" text-white">@Html.DisplayFor(modelItem => item.email)</p>
-        <a asp-action="Edit" asp-route-id="@item.id_parceiro">Edite</a> |
-        <a asp-action="Details" asp-route-id="@item.id_parceiro">Detalhes</a> |
-        <a asp-action="Delete" asp-route-id="@item.id_parceiro">Delete</a>
+        <a asp-action="Edit" asp-route-id="@item.id_parceiro">Editar</a> |
+        <a asp-action="Details" asp-route-id="@item.id_parceiro">Mostrar</a> |
+        <a asp-action="Delete" asp-route-id="@item.id_parceiro">Excluir</a>
   </div>
 </div>
 }
