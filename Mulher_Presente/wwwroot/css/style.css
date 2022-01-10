@@ -135,6 +135,12 @@ h1, h2, h3, h4, h5, h6 {
 # Menu de Navegação
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
+.nav-link:hover{
+  border-bottom: 3px solid #948803;
+  transition: 0.5s;
+}
+
 .nav-menu {
   margin: 25px;
  
