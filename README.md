@@ -6,13 +6,11 @@
 [Deploy Mulher Presente]()
 
 ## Layout Web
-
-
-### Home
+![Home](public/MP_desktop.jpg)
 
 
 ## Layout Mobile
-
+![Layout Mobile](public/MP_mobile.jpg)
 
 # Tecnologias utilizadas 
 ## Front-end
