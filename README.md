@@ -6,10 +6,10 @@
 [Deploy Mulher Presente](http://mulherpresente.somee.com/)
 
 ## Layout Web
-
+![Layout Web](public/MP_desktop.jpg)
 
 ## Layout Mobile
-
+![Layout Mobile](public/MP_mobile.jpg)
 
 # Tecnologias utilizadas 
 ## Front-end
