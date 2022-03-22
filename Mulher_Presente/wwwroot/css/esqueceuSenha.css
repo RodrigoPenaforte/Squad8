@@ -1,0 +1,74 @@
+*
+{
+	margin: 0; padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body
+{
+	width: 100%;
+	height: 100vh;
+	background: #16b;
+	justify-content: center;
+	align-items: center;
+    background: -webkit-linear-gradient(right, #7e5367, #ee75ae);
+}
+
+form
+{
+	background: #ffffffa6;
+	padding: 56px 49px;
+	margin: 6rem;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+form .row
+{
+	position: relative;
+	margin: 20px 0;
+}
+form input
+{
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #777;
+	border-radius: 5px;
+	padding-right: 110px;
+	margin: 0.6rem 0;
+}
+form input[type="button"]
+{
+	background: -webkit-linear-gradient(right, #7e5367, #ee75ae);
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	padding-right: 0px;
+}
+form .row span,
+form .row img
+{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	color: #555;
+	transform: translateY(-50%);
+}
+form .row img
+{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+form h1
+{
+	color: rgb(69, 69, 70);
+	position: relative;
+    text-align: center;
+}
+
+.Enviar:hover { 
+	background: -webkit-linear-gradient(right, #ee75ae, #ee75ae);
+}
