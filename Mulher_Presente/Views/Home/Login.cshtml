@@ -1,0 +1,106 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">
+                Login Presente
+            </div>
+            <div class="title signup">
+                Cadastro Presente
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Cadastro</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Digite seu Email" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="pass-link">
+                        <a asp-area="" asp-controller="Home" asp-action="EsqueceuSenha">Esqueceu a senha?</a>
+                    </div>
+                    <div class="field btn">
+
+                        <a href="http://mulherpresente.somee.com/">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Login">
+                        </a>
+                    </div>
+                    <div class="signup-link">
+                        Não é cadastro no site mulher presente? <a href="">Cadastre aqui!</a>
+                    </div>
+                </form>
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Cadastre seu Email" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Digite uma senha" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirma sua senha" required>
+                    </div>
+
+                    <select class="field" name="select">
+                        <option class="valor1" value="valor1">Cliente</option>
+                        <option class="valor2" value="valor2" selected>Advogado</option>
+                        <option class="valor3" value="valor3">Psicólogo</option>
+                        <option class="valor4" value="valor4">Outros Parceiros</option>
+                    </select>
+
+
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const loginText = document.querySelector(".title-text .login");
+        const loginForm = document.querySelector("form.login");
+        const loginBtn = document.querySelector("label.login");
+        const signupBtn = document.querySelector("label.signup");
+        const signupLink = document.querySelector("form .signup-link a");
+        signupBtn.onclick = (() => {
+            loginForm.style.marginLeft = "-50%";
+            loginText.style.marginLeft = "-50%";
+        });
+        loginBtn.onclick = (() => {
+            loginForm.style.marginLeft = "0%";
+            loginText.style.marginLeft = "0%";
+        });
+        signupLink.onclick = (() => {
+            signupBtn.click();
+            return false;
+        });
+    </script>
+</body>
+
+</html>

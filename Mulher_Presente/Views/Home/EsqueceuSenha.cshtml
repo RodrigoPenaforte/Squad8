@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "EsqueceuSenha";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="esqueceuSenha.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senha</title>
+
+    <link rel="stylesheet" href="~/css/esqueceuSenha.css" />
+</head>
+
+<body>
+
+    <form>
+        <h1>Atualização de Senha</h1>
+        <div class="row">
+            <input type="email" placeholder="Digite seu email cadastro">
+        </div>
+        <div class="row">
+            <input type="text" class="number" placeholder="Digite o Código do seu Email">
+            <input type="password" class="senha" placeholder="Digite a senha">
+            <input type="password" class="senha" placeholder="Digite novamente">
+            <!-- <img src="https://icon-library.com/images/icon-eyes/icon-eyes-12.jpg" class="btn"> -->
+        </div>
+        <input type="button" class="Enviar" value="Enviar">
+    </form>
+
+    <script>
+        const senha = document.querySelector('.senha');
+        const btn = document.querySelector('.btn');
+
+        btn.onclick = () => {
+            if (senha.type === 'password') {
+                senha.type = 'text'
+                btn.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8SA14-A-zoRaiJ2GdUiESsisaFiHNYrUZtjtjZqnth0D_KdfkwzQWIdCjbzhAoYKPTvs&usqp=CAU'
+            }
+            else {
+                senha.type = 'password'
+                btn.src = 'https://icon-library.com/images/icon-eyes/icon-eyes-12.jpg'
+            }
+        }
+    </script>
+
+</body>
+</html>

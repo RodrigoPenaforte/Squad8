@@ -2655,3 +2655,5 @@ C:\Users\Iago\Desktop\Nova pasta (5)\Squad8\Mulher_Presente\obj\Debug\net5.0\Mul
 C:\Users\Iago\Desktop\Nova pasta (5)\Squad8\Mulher_Presente\obj\Debug\net5.0\Mulher-Presente.genruntimeconfig.cache
 >>>>>>> ed66d783a637ea274379f4d7ad5e4916e45c5ee3
 D:\Mulher Presente\Nova pasta\Squad8\Mulher_Presente\obj\Debug\net5.0\staticwebassets\Mulher-Presente.StaticWebAssets.xml
+C:\Users\Driel\OneDrive\Documentos\GitHub\Recode\Squad8\Mulher_Presente\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Driel\OneDrive\Documentos\GitHub\Recode\Squad8\Mulher_Presente\obj\Debug\net5.0\Razor\Views\Home\EsqueceuSenha.cshtml.g.cs
