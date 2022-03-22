@@ -141,6 +141,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
+.AjudaAgora{
+  color: #d40707;
+  background: -webkit-linear-gradient(right, #7e5367, #ee75ae);
+}
+
+.AjudaAgora:hover{
+  background: #d40707;
+  color: #fff;
+  transition: 0.5s;
+}
+
 .nav-menu {
   margin: 25px;
 }
