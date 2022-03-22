@@ -38,6 +38,11 @@ form input
 	padding-right: 110px;
 	margin: 0.6rem 0;
 }
+@media (max-width: 992px){
+	form{
+	  margin: 0;
+	}
+  }
 form input[type="button"]
 {
 	background: -webkit-linear-gradient(right, #7e5367, #ee75ae);
