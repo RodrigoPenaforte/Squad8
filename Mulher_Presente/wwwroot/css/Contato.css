@@ -1,0 +1,25 @@
+.back_contato {
+    content: "";
+    background: #040404 url("../images/back_contato.jpg") top center no-repeat !important;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1310px;
+}
+
+.img_centro_contato {
+    width: 287px;
+    height: 287px;
+    box-shadow: 2px 0 8px 0 rgb(128 128 128);
+    background-image: url(images/757311b…_1280.png);
+    background-position: 50% 50%;
+    margin: 32px auto 0;
+    border-radius: 50% !important;
+}
+
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+}
