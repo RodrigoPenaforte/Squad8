@@ -2657,3 +2657,4 @@ C:\Users\Iago\Desktop\Nova pasta (5)\Squad8\Mulher_Presente\obj\Debug\net5.0\Mul
 D:\Mulher Presente\Nova pasta\Squad8\Mulher_Presente\obj\Debug\net5.0\staticwebassets\Mulher-Presente.StaticWebAssets.xml
 C:\Users\Driel\OneDrive\Documentos\GitHub\Recode\Squad8\Mulher_Presente\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\Driel\OneDrive\Documentos\GitHub\Recode\Squad8\Mulher_Presente\obj\Debug\net5.0\Razor\Views\Home\EsqueceuSenha.cshtml.g.cs
+C:\Users\Driel\OneDrive\Documentos\GitHub\Recode\Squad8\Mulher_Presente\obj\Debug\net5.0\Razor\Views\Home\AjudaAgora.cshtml.g.cs

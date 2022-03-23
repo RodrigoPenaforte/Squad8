@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "AjudaAgora";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/ajudaAgora.css" />    
+    <link rel="stylesheet" href="~/css/login.css" />    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title signup">
+                <p>Vamos te <u>Ajudar Agora</u> mesmo!</p>
+                <p>Clique aqui ⬇</p>
+                <a href="https://api.whatsapp.com/send/?phone=5561996565008&text&app_absent=0" class="whatsapp"><button type="button" class="buttonPanico">Help</button></a>
+                <p>⬆ no botão de pânico</p>
+            </div>
+        </div>
+        <div class="mapa-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235134.68431008808!2d-43.47348325713204!3d-22.950984207458447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f94301f68a7%3A0xfa144ec03fb45c75!2sONG%20RECODE!5e0!3m2!1spt-BR!2sbr!4v1647978016999!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+                <div class="signup-link">
+                    Não é cadastro no site Mulher Presente? <a asp-area="" asp-controller="Home" asp-action="Login">Cadastre aqui!</a>
+                </div>
+        </div>
+    </div>
+</body>
