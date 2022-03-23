@@ -9,3 +9,34 @@
     box-shadow: 0 0 1em #ED213A;
     cursor: pointer;
 }
+
+.mapa-container{
+    text-align: center;
+    width: 100%;
+    margin: 1.4rem;
+}
+
+.wrapper{
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .mapa-container {
+        margin: 0;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    .wrapper{
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 380px){
+    .wrapper{
+      padding: 12px 14px;
+    }
+  }
