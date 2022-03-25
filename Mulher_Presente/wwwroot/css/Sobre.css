@@ -3,6 +3,36 @@
 .editar{
     background-image: url("images/editar.png");
     width: 15px;
-    border: 1px solid red;
 }
 
+body {
+    background: #000;
+}
+
+@media (max-width: 991px) {
+    tr, th, td {
+        width: 100%;
+    }
+    tr {
+        height: 100%;
+        display: flex;
+    }
+}
+
+@media (max-width: 413px) {
+    body {
+        width: 129%;
+        margin: 0;
+
+    }
+    .container {
+        padding: 10px 0;
+    }
+    thead tr {
+        display: flex;
+        justify-content: space-between;
+    }
+    td a img {
+        width: 1.5rem;
+    }
+}
