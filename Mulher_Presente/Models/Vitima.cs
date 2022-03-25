@@ -10,11 +10,11 @@ namespace Mulher_Presente.Models
         public int id_vitima {get; set;}
 
         [Required]
-        [DisplayName("Nome fictício ou um apelido")]
+        [DisplayName("Nome/apelido")]
         public string apelido { get; set; }
 
          [Required]
-         [DisplayName("Numero de Contato")]
+         [DisplayName("Telefone")]
         public string telefone { get; set; }
 
          [Required]
