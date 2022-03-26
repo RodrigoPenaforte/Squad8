@@ -20,7 +20,9 @@
 
 ## Back-end
 - C#
+- dotnet
 - Asp Net
+- Entyti framework
 
 # Autores
 
