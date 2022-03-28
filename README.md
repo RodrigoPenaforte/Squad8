@@ -33,4 +33,4 @@ Drielison Lopes | [Drielison Lopes](https://github.com/DrielisonLopes) | [Linked
 Iago Caldas | [Iago Caldas](https://github.com/Iagoakie/) | [Linkedin](https://www.linkedin.com/in/iago-caldas-57b11a206/) | iagocaldas58@gmail.com
 Iane Nunes | [Iane Nunes](https://github.com/ianenunes) | [Linkedin](https://www.linkedin.com/in/) | 
 Paulo Rodrigues | [Paulo Rodrigues](https://github.com/Paulo-Dev1) | [Linkedin](https://www.linkedin.com/in/dev-paulo-miguel/) | miguel6112@gmail.com
-Rodrigo Penaforte | [Rodrigo Penaforte](https://github.com/RodrigoPenaforte) | [Linkedin](http://www.linkedin.com/in/rodrigo-penaforte-b18b1313a) | 
+Rodrigo Penaforte | [Rodrigo Penaforte](https://github.com/RodrigoPenaforte) | [Linkedin](http://www.linkedin.com/in/rodrigo-penaforte-b18b1313a) | rodrigo.penaforte550@gmail.com
