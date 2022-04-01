@@ -24,6 +24,13 @@
 - Asp Net
 - Entyti framework
 
+## Banco de dados
+- SQL Server
+
+## Deploy
+- Azure
+- somee.com
+
 # Autores
 
 Nome   | GitHub | Linkedin | Email
